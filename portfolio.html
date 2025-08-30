@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIE WEB</title>
+    <link rel="stylesheet" href="portfolio.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="potrfolie.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolie</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header_content">
+            <div class="header_text">
+
+            <p> Full Stack Developer <br>
+            </p>
+    
+            <h1>Hi  ,  I'm <span> Het </span><br> From India </h1>
+           </div>
+            <div class="header_photo">
+                <img src="bgi.jpg" alt="Het's Photo">
+            </div>
+            
+    
+          
+        </div>
+     </div>
+    <!----  about----->
+    <div id="about">
+        <div class="container">
+                    <div class="row">
+                        <div class="aboutc1">
+                             <img src="user.jpg" alt="">
+                        </div>
+                        <div class="aboutc2">
+                            <h2  class="subtitle">About Me</h2>
+                            <p>I'm a passionate and detail-oriented developer with a strong foundation in web development, database management, and software design. I specialize in creating responsive websites, building robust backend systems, and writing clean, maintainable code. With a continuous drive to learn and adapt, I focus on delivering practical and scalable solutions that meet real-world needs.</p>
+
+
+                        <div class="tabtitle">
+                            <p class="tab_links active1"  onclick="opentab('skills')">Skills</p>
+                            <p class="tab_links" onclick="opentab('experience')" >Experience</p>
+                            <p class="tab_links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tabcontain  tab1" id="skills">
+                            <ul>
+                                <li><span>UI UX</span><br>Software developer</li>
+                                <li><span>full-stack</span><br>Software developer</li>
+                                <li><span>web developer</span><br>Software developer</li>
+                            </ul>
+                        </div>
+                        <div class="tabcontain " id ="education">
+                            <ul>
+                               <li><span>2023 - Current </span> <br> B.E | IT |Gec gandhinagar</li>
+                               <li><span>2023- 21</span><br> pvs | science-streme</li>
+                            </ul>
+                        </div>
+                        <div class="tabcontain " id="experience">
+                            <ul>
+                               <li><span>2023</span><br>internship</li>
+                               <li><span>2024</span><br></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-------------services-------------->
+    <div id="services">
+        <div class="container">
+        <h2  class="subtitle">Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #74C0FC;"></i>
+                <h2>Web design </h2>
+                <p>"Crafting visually engaging and user-friendly web designs with modern aesthetics and responsive layouts."
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- <div>
+                <i class="fa-solid fa-pen-ruler" style="color: #74C0FC;"></i>
+                <h2>UI/UX design </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum saepe inventore ipsum autem iure incidunt illum vitae ab, et reiciendis!
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            -->
+             <div>
+                <i class="fa-solid fa-server" style="color: #74C0FC;"></i>
+                <h2>Databases </h2>
+                <p> "Designing and managing efficient, secure, and scalable databases for seamless data handling."
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+             <div>
+                <i class="fa-brands fa-app-store-ios" style="color: #74C0FC;"></i>
+                <h2>Development </h2>
+                <p>"I specialize in building responsive websites, managing databases, and creating smooth user experiences.
+                    From frontend design to backend logic, I turn ideas into fully functional digital solutions."
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+        </div>
+    </div>
+<!-------------portfolie-------------->
+
+    <div id="portfolio">
+       <div class="container">
+                <h2  class="subtitle">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="software.jpg" >
+                        <div class="layer">
+                            <h3>Software dev.</h3>
+                            <p></p>"Passionate software developer skilled in building efficient, scalable, and user-focused applications.
+I turn complex problems into clean, functional code across web and backend systems."
+                            <br>
+                            <a href="#"><i class="fa-solid fa-link" style="color: #0d0606;"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="sql.jpg" >
+                         <div class="layer">
+                            <h3>Databases</h3>
+                            <p>"Experienced in designing, querying, and optimizing SQL databases for reliable data storage and access.
+I ensure data integrity, performance, and security across all backend systems."</p>
+                            <br>
+                            <a href="#"><i class="fa-solid fa-link" style="color: #0d0606;"></i></a>
+                    </div>
+                
+                 </div>
+                </div>
+               <a href="#" class="btn">See More </a>
+
+       </div>
+
+    </div>
+
+    <!---  contect --------------->
+    <div id="contact">
+    <div class="container">
+        <!-- Only ONE form tag is needed -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Your Web3Forms access key -->
+            <input type="hidden" name="access_key" value="fbd43a33-d585-469f-8f7e-c6082d66e512">
+
+            <div class="row">
+                <div class="contct-left">
+                    <h3 class="subtitle">Contact me</h3>
+                    <p><i class="fa-solid fa-square-envelope" style="color: #74C0FC;"></i> hetvasaniya0106@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #74C0FC;"></i> 8347441542</p>
+                    <div class="socialicon">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: #B197FC;"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=s269a3a"><i class="fa-brands fa-instagram" style="color: #B197FC;"></i></a>
+                        <a href="#"><i class="fa-brands fa-github" style="color: #B197FC;"></i></a>
+                        <a href="https://www.linkedin.com/in/het-vasaniya-12461a340"><i class="fa-brands fa-linkedin" style="color: #B197FC;"></i></a>
+                    </div>
+                </div>
+                
+                <form method="post" action="submit.php">
+                <div class="contct-right">
+                    <!-- Remove extra form tag -->
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <!---  copy right --------------->
+    <div class="copy">
+        <p class="actions">
+            <i class="fa-regular fa-copyright"></i>
+            <p>2025 " HV ". All rights reserved</p>
+        </p>
+    </div>
+
+
+ 
+</body>
+</html>
